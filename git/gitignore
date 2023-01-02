@@ -1,0 +1,10 @@
+*~
+*.swp
+*.swo
+*.tmp
+*.attic
+.DS_Store
+.AppleDouble
+.LSOverride
+**/resurrect/last
+
