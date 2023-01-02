@@ -13,6 +13,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup(
 "plugins", { 
+  checker = { enabled = true, notify = false },
+  change_detection = { enabled = true, notify = false },
   ui = {
     icons = {
       cmd = "⌘",
